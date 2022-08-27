@@ -1,0 +1,81 @@
+.business {
+    display: flex;
+    color: white;
+    gap: 50px;
+    margin: 150px 0;
+}
+
+.business-info {
+    flex: 1;
+}
+
+.business-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+.business-description{
+    margin: 20px 0px;
+    line-height: 30.6px;
+    max-width: 500px;
+}
+
+.business-features {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/*feature*/
+
+.feature {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.feature:hover{
+    box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+    background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+
+}
+
+
+.feature-title {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.feature-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(9, 151, 124, 0.1);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+.feature-img img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+@media screen and (max-width:1024px) {
+    .business{
+        padding: 2rem;
+        flex-direction: column;
+    }
+   
+    
+}

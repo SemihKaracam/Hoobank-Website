@@ -1,0 +1,25 @@
+.clients{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.client-item{
+    width: 180px;
+}
+
+.client-item img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    .clients{
+        padding: 2rem;
+        justify-content: center;
+
+    }
+    
+}
